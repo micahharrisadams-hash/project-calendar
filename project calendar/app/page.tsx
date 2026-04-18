@@ -1,5 +1,8 @@
-import { StudyPlanner } from "@/components/study-planner"
-
 export default function Home() {
-  return <StudyPlanner />
+  return (
+    <main>
+      <h1>Study Planner</h1>
+      <p>App is running 🚀</p>
+    </main>
+  )
 }
