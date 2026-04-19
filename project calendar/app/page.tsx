@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1>IT WORKS</h1>
+  return (
+    <main>
+      <h1>Calendar App Works 🚀</h1>
+    </main>
+  )
 }
