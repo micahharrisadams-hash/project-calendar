@@ -1,8 +1,9 @@
+import { StudyPlanner } from "@/components/study-planner"
+
 export default function Home() {
   return (
-    <main style={{padding:20}}>
-      <h1>Study Planner</h1>
-      <p>Your deployment works </p>
+    <main>
+      <StudyPlanner />
     </main>
   )
 }
